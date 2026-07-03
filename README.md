@@ -104,8 +104,7 @@ Experiments included:
 * Citation support
 * Multi-document retrieval
 * Evaluation framework
-* Streamlit interface
-* Docker deployment
+
 
 ---
 
