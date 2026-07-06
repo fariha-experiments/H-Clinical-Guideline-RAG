@@ -1,0 +1,215 @@
+# Retrieval Evaluation Framework
+
+## Objective
+
+The purpose of this framework is to evaluate whether modifications to the retrieval pipeline improve the quality and usefulness of retrieved clinical evidence.
+
+Rather than relying on subjective observations, every retrieval improvement should be assessed against a consistent set of benchmark queries.
+
+---
+
+# Scope
+
+This framework evaluates **retrieval quality only**.
+
+It does **not** evaluate:
+
+- LLM answer generation
+- Hallucinations
+- Prompt engineering
+- Medical correctness of the language model
+
+The focus is to determine whether the retrieval system returns the most relevant clinical evidence for a given information need.
+
+---
+
+# Retrieval Philosophy
+
+The objective of retrieval is not simply to return semantically similar text.
+
+It is to retrieve **self-contained clinical evidence** that satisfies the user's information need while preserving enough surrounding context for meaningful interpretation.
+
+### Design Principles
+
+- Optimize for user intent rather than keyword overlap.
+- Retrieve complete clinical concepts instead of isolated fragments.
+- Preserve sufficient context to minimize unnecessary follow-up searches.
+- Maintain topical focus throughout the retrieved results.
+
+**Guiding Principle**
+
+> Every retrieved chunk should ideally answer the user's next obvious question.
+
+---
+
+# Evaluation Strategy
+
+The retrieval system will be evaluated using a benchmark dataset of representative clinical questions.
+
+Each query will be tested after significant retrieval changes, including:
+
+- Chunking strategy
+- Chunk size / overlap
+- Embedding model
+- Retrieval configuration
+- Future retrieval enhancements
+
+The objective is to compare retrieval quality across iterations using the same benchmark questions.
+
+---
+
+# Benchmark Query Categories
+
+## Diagnosis
+
+Example queries
+
+- What are the diagnostic criteria for PCOS?
+- How is PCOS diagnosed?
+
+Expected retrieval
+
+- Diagnostic criteria
+- Explanation of each criterion
+- Supporting diagnostic recommendations
+
+---
+
+## Clinical Presentation
+
+Example queries
+
+- What are the symptoms of PCOS?
+- What causes PCOS?
+
+Expected retrieval
+
+- Clinical features
+- Common symptoms
+- Relevant background information
+
+---
+
+## Investigations
+
+Example queries
+
+- Which investigations are recommended?
+- What blood tests should be performed?
+- Is ultrasound required?
+
+Expected retrieval
+
+- Recommended laboratory investigations
+- Imaging recommendations
+- Diagnostic work-up
+
+---
+
+## Management
+
+Example queries
+
+- What is the first-line treatment?
+- What lifestyle interventions are recommended?
+- When is metformin indicated?
+
+Expected retrieval
+
+- Lifestyle management
+- Pharmacological recommendations
+- Treatment pathway
+
+---
+
+## Monitoring
+
+Example queries
+
+- Which blood markers should be monitored?
+- How should treatment response be evaluated?
+
+Expected retrieval
+
+- Follow-up recommendations
+- Monitoring parameters
+- Ongoing clinical assessment
+
+---
+
+## Special Populations
+
+Example queries
+
+- Does management differ in adolescents?
+- What are the recommendations during pregnancy?
+
+Expected retrieval
+
+- Population-specific recommendations
+- Modifications to diagnosis or treatment
+
+---
+
+# Evaluation Dimensions
+
+For each benchmark query, retrieval quality will be assessed based on the following questions:
+
+### Relevance
+
+Did the retrieved chunks address the intended clinical question?
+
+---
+
+### Intent Alignment
+
+Did retrieval satisfy the user's information need rather than matching keywords alone?
+
+---
+
+### Topical Focus
+
+Did the retrieved results remain focused on the requested clinical concept without drifting into unrelated sections?
+
+---
+
+### Context Completeness
+
+Did the retrieved chunks contain sufficient surrounding information to be understood independently?
+
+---
+
+### Practical Usefulness
+
+Would a clinician need to immediately perform another search to understand the retrieved evidence?
+
+---
+
+# Benchmark Dataset
+
+| Category | Query | Expected Concepts | Retrieval Notes |
+|----------|-------|-------------------|-----------------|
+| Diagnosis |  |  |  |
+| Clinical Presentation |  |  |  |
+| Investigations |  |  |  |
+| Management |  |  |  |
+| Monitoring |  |  |  |
+| Special Populations |  |  |  |
+
+---
+
+# Future Improvements
+
+Planned enhancements include:
+
+- Automated retrieval evaluation pipeline
+- Quantitative retrieval metrics
+- Top-k retrieval analysis
+- Chunking strategy comparison
+- Embedding model comparison
+- Hybrid Search (BM25 + Semantic Search)
+- Metadata-aware retrieval
+- Reranking
+- Retrieval explainability
+- Citation support
+- Multi-document retrieval
