@@ -196,15 +196,72 @@ Would a clinician need to immediately perform another search to understand the r
 | Monitoring |  |  |  |
 | Special Populations |  |  |  |
 
+--
+
 ---
+
+# Benchmark Dataset Schema
+
+The benchmark dataset (`benchmark_queries.csv`) contains evaluation queries used to assess retrieval quality across different question types.
+
+# Benchmark Dataset
+
+Benchmark queries are maintained separately in:
+
+```text
+evaluation/benchmark_queries.csv
+```
+
+Separating the benchmark from this document keeps the evaluation framework stable while allowing benchmark queries to evolve independently.
+
+## Benchmark Dataset Schema
+
+| Column | Description |
+|--------|-------------|
+| `query_id` | Unique identifier for each benchmark query (e.g. D001, S001). |
+| `category` | Clinical area being evaluated (Diagnosis, Symptoms, Causes, Treatment, Investigations, etc.). |
+| `difficulty` | Query wording complexity.<br><br>**Easy:** Direct wording.<br>**Medium:** Semantically equivalent paraphrased wording.<br>**Hard:** Requires connecting multiple concepts or retrieving nuanced information. |
+| `user_question` | Natural language query submitted to the retrieval system. |
+| `expected_concepts_keywords` | Clinical concepts expected to appear in the retrieved evidence. Evaluation is concept-based rather than exact-text matching. |
+| `Retrieval Notes |
+
+The objective is to evaluate retrieval quality, not answer generation.
+
+A retrieval is considered successful if it returns evidence containing the concepts required to answer the question, even if the wording differs from the benchmark keywords.
+
+### Why Concept-based Evaluation?
+
+The objective is to evaluate retrieval quality, not answer generation.
+
+A retrieval is considered successful if it returns evidence containing the concepts required to answer the question, even if the wording differs from the benchmark keywords.
+
+For example:
+
+Question:
+
+> What are the diagnostic criteria for PCOS?
+
+Expected Concepts:
+
+- Rotterdam criteria
+- Hyperandrogenism
+- Ovulatory dysfunction
+- Polycystic ovaries
+
+The retrieved text does **not** need to match these words exactly but should contain the relevant clinical concepts.
+-
 
 # Future Improvements
 
 Planned enhancements include:
 
+Current/live:
 - Automated retrieval evaluation pipeline
 - Quantitative retrieval metrics
 - Top-k retrieval analysis
+
+
+Future:
 - Chunking strategy comparison
 - Embedding model comparison
 - Hybrid Search (BM25 + Semantic Search)
