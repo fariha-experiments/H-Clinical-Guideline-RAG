@@ -1,5 +1,9 @@
 import pandas as pd
 
+from retriever.vector_store import build_vector_store
+
+from config import TOP_K
+
 
 #constants section
 BENCHMARK_FILE = "data/benchmark_queries.csv"
@@ -15,9 +19,28 @@ def load_benchmark():
     queries = pd.read_csv(BENCHMARK_FILE)
     return queries
 
-#v2 def retrieve_top_k_chunks(question):
-#v2   print(question)
-    #logiv goes here: similarity_search model is called?
+
+# -----------------------------------------
+# Function: retrieve_top_k_chunks
+# Purpose:
+#     Retrieve Top-K relevant chunks for a query.
+#
+# Input:
+#     Chroma : db
+#     String : question
+#
+# Returns:
+#     List : retrieved_chunks
+# -----------------------------------------
+
+def retrieve_top_k_chunks(db, question):
+
+    retrieved_chunks = db.similarity_search(
+        question,
+        k=TOP_K
+    )
+
+    return retrieved_chunks
 
 #loops through benchmark to load queries and feeds each query to retreiver 
 def run_benchmark(benchmark_df):
