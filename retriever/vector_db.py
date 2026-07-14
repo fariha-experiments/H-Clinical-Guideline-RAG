@@ -33,10 +33,8 @@ def build_vector_store():
 
     return db
 
-#--------- temp test | delete in revision--------------
-if __name__ == "__main__":
 
-    db = build_vector_store()
 
-    print(f"vector here{type(db)}")
-    print(db)
+    
+
+    

@@ -1,6 +1,6 @@
 import pandas as pd
 
-from retriever.vector_store import build_vector_store
+from retriever.vector_db import build_vector_store
 
 from config import TOP_K
 
@@ -42,12 +42,38 @@ def retrieve_top_k_chunks(db, question):
 
     return retrieved_chunks
 
+# -----------------------------------------
 #loops through benchmark to load queries and feeds each query to retreiver 
+# Purpose:
+#     Loop through benchmark questions and
+#     retrieve Top-K chunks.
+#
+# Input:
+#     None
+#
+# Returns:
+#     None
+# -----------------------------------------
 def run_benchmark(benchmark_df):
+    # Build vector database
+    db = build_vector_store()
     for index, row in benchmark_df.iterrows():
-        query_question = row["user_question"]
-        print(query_question)
-        #retreived_chunks = retrieve_top_k_chunks(query_question)
+        question = row["user_question"]
+        
+        retrieved_chunks = retrieve_top_k_chunks(
+            db,
+            question
+        )
+
+        print("\n===================================")
+        print(f"Question: {question}")
+        print("===================================")
+
+        for rank, chunk in enumerate(retrieved_chunks, start=1):
+
+            print(f"\nResult {rank}")
+            print(f"Page: {chunk.metadata.get('page')}")
+            print(chunk.page_content[:250])
 
     #prepare the df to feed save_results    
   
