@@ -57,6 +57,9 @@ def retrieve_top_k_chunks(db, question):
 def run_benchmark(benchmark_df):
     # Build vector database
     db = build_vector_store()
+
+    results=[]
+
     for index, row in benchmark_df.iterrows():
         question = row["user_question"]
         
@@ -65,20 +68,59 @@ def run_benchmark(benchmark_df):
             question
         )
 
-        print("\n===================================")
-        print(f"Question: {question}")
-        print("===================================")
+    #debug stage 1    print("\n===================================")
+     #   print(f"Question: {question}")
+
+        #for rank, chunk in enumerate(retrieved_chunks, start=1):
+
+       #     print(f"\nResult {rank}")
+            
+
+    #prepare the df to feed save_results 
 
         for rank, chunk in enumerate(retrieved_chunks, start=1):
 
-            print(f"\nResult {rank}")
-            print(f"Page: {chunk.metadata.get('page')}")
-            print(chunk.page_content[:250])
+            results.append({
 
-    #prepare the df to feed save_results    
+                "query_id": row["query_id"],
+                "category": row["category"],
+                "difficulty": row["difficulty"],
+                "question": question,
+
+                "retrieval_rank": rank,
+
+                "retrieved_page": chunk.metadata.get("page"),
+
+                "retrieved_chunk": chunk.page_content
+
+            })
+
+    return results   
   
 
 #def save_results(retreived_df):
+# -----------------------------------------
+# Function: save_results
+# Purpose:
+#     Save retrieval results to CSV.
+#
+# Input:
+#     List : results
+#
+# Returns:
+#     None
+# -----------------------------------------
+def save_results(results):
+
+    results_df = pd.DataFrame(results)
+
+    results_df.to_csv(
+        OUTPUT_FILE,
+        index=False
+    )
+
+    print(f"\nSaved {len(results_df)} retrieval results.")
+
 
 def main():
 
@@ -86,7 +128,11 @@ def main():
 
     print(f"Loaded {len(benchmark_df)} benchmark queries.\n")
 
-    run_benchmark(benchmark_df)
+    results = run_benchmark(
+        benchmark_df
+    )
+
+    save_results(results)
 
     # V2:
     # retrieved_df = run_benchmark(benchmark_df)
