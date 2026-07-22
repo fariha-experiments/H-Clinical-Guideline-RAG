@@ -1,6 +1,7 @@
 from langchain_community.vectorstores import Chroma
 
 from retriever.loader import load_pdf
+from retriever.cleaner import clean_documents
 from retriever.chunker import chunk_documents
 from retriever.embeddings import load_embeddings
 
@@ -20,6 +21,8 @@ from config import COLLECTION_NAME
 def build_vector_store():
 
     documents = load_pdf()
+    documents = clean_documents(documents)
+
 
     chunks = chunk_documents(documents)
 
