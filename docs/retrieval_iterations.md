@@ -57,12 +57,32 @@ Remove document noise before chunking.
 
 ### Goal
 
+Determine whether removing non-clinical metadata from the document improves retrieval quality.
+
+### Problem
+
+Initial retrieval results included irrelevant copyright and document metadata from the source PDF.
+
 ### Change Made
+
+Added a document-cleaning step that identifies predefined non-clinical metadata patterns and removes the affected content before chunking.
 
 ### Files Modified
 
+- `retriever/cleaner.py`
+
 ### Result
+
+The previously identified metadata/copyright content no longer appeared in the retrieval results.
+
+However, irrelevant retrieval remained in some benchmark domains, particularly symptoms and causes.
 
 ### Conclusion
 
+Document cleaning successfully addressed the identified metadata contamination problem, but did not resolve the broader retrieval-quality issues.
+
 ### Next Iteration
+
+Investigate the remaining retrieval failures and determine whether they are primarily caused by chunking, retrieval, or ranking.
+
+------------
