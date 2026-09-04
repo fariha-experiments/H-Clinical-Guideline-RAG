@@ -8,7 +8,6 @@ from config import TOP_K
 #constants section
 BENCHMARK_FILE = "data/benchmark_queries.csv"
 OUTPUT_FILE = "data/retrieval_results.csv"
-TOP_K = 3
 
 
 #loading files section
@@ -35,7 +34,7 @@ def load_benchmark():
 
 def retrieve_top_k_chunks(db, question):
 
-    retrieved_chunks = db.similarity_search(
+    retrieved_chunks = db.similarity_search_with_score(
         question,
         k=TOP_K
     )
@@ -78,7 +77,7 @@ def run_benchmark(benchmark_df):
 
     #prepare the df to feed save_results 
 
-        for rank, chunk in enumerate(retrieved_chunks, start=1):
+        for rank, (chunk, score) in enumerate(retrieved_chunks, start=1):
 
             results.append({
 
@@ -86,7 +85,7 @@ def run_benchmark(benchmark_df):
                 "category": row["category"],
                 "difficulty": row["difficulty"],
                 "question": question,
-
+                "retrieval_score": score,
                 "retrieval_rank": rank,
 
                 "retrieved_page": chunk.metadata.get("page"),

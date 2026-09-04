@@ -10,7 +10,6 @@ Build a working retrieval pipeline.
 ### Benchmark
 - 6 benchmark questions
 - Top-K = 3
-- Embedding: BAAI/bge-small-en-v1.5
 - Chunk Size: 800
 - Overlap: 100
 
@@ -86,3 +85,31 @@ Document cleaning successfully addressed the identified metadata contamination p
 Investigate the remaining retrieval failures and determine whether they are primarily caused by chunking, retrieval, or ranking.
 
 ------------
+
+## Iteration 2 - Retrieval Score Diagnostics
+
+### Goal
+Inspect retrieval scores to understand retrieval behaviour.
+
+### Problem
+Retrieved chunks were sometimes semantically related but not the most relevant evidence.
+
+### Hypothesis
+Retrieval scores will help identify whether poor results are caused by weak similarity or by retrieval selecting the wrong semantically similar chunks.
+
+### Change Made
+Changed `similarity_search()` to `similarity_search_with_score()` and added `retrieval_score` to the evaluation output.
+
+### Files Modified
+`evaluation_runner.py`
+
+### Result
+Scores were successfully captured for all 18 retrieval results.
+
+The scores show that lower-scoring chunks are closer to the query, but a stronger score does not guarantee that the chunk contains the correct clinical evidence.
+
+### Conclusion
+Score visibility helps diagnose retrieval behaviour, but score alone cannot determine retrieval correctness.
+
+### Next Iteration
+Experiment with chunking strategy and evaluate whether better chunk context improves Top-K retrieval.
