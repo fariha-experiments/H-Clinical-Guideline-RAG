@@ -113,3 +113,41 @@ Score visibility helps diagnose retrieval behaviour, but score alone cannot dete
 
 ### Next Iteration
 Experiment with chunking strategy and evaluate whether better chunk context improves Top-K retrieval.
+
+-----------
+
+## Iteration 3 - Chunk Size Experiment
+
+### Goal
+
+Evaluate whether increasing chunk size improves retrieval of relevant clinical evidence.
+
+### Problem
+
+Retrieved chunks were sometimes semantically related to the query but did not contain the most relevant clinical evidence.
+
+### Hypothesis
+
+Larger chunks may preserve more surrounding clinical context and improve Top-K retrieval relevance.
+
+### Change Made
+
+Increased chunk_size from 800 to 1200 while keeping the chunking method, chunk overlap, embedding model, vector database, benchmark queries, and TOP_K unchanged.
+
+### Files Modified
+
+config.py
+
+### Result
+
+The 1200-token chunks did not materially resolve the retrieval failures.
+
+Diagnostic queries continued to retrieve semantically related but clinically incorrect or incomplete evidence. For example, diagnostic queries continued to retrieve AMH and ultrasound content rather than the Rotterdam diagnostic criteria, while symptom and cause queries also returned broader guideline or unrelated sections.
+
+### Conclusion
+
+Increasing chunk size did not materially improve retrieval quality. Chunk size does not appear to be the primary retrieval bottleneck in the current pipeline.
+
+### Next Iteration
+
+Compare the current embedding model with a retrieval-oriented embedding model while keeping the corpus, chunking, benchmark, vector database, and retrieval configuration unchanged.
