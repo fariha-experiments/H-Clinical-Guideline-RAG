@@ -5,7 +5,7 @@ PDF_PATH = "data/Evidence-Based-Guidelines-2023.pdf"
 CHUNK_SIZE = 1200
 CHUNK_OVERLAP = 150
 
-EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
+EMBEDDING_MODEL = "BAAI/bge-small-en-v1.5"
 
 COLLECTION_NAME = "pcos_guidelines"
 

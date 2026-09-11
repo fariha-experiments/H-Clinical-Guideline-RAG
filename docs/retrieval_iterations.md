@@ -151,3 +151,47 @@ Increasing chunk size did not materially improve retrieval quality. Chunk size d
 ### Next Iteration
 
 Compare the current embedding model with a retrieval-oriented embedding model while keeping the corpus, chunking, benchmark, vector database, and retrieval configuration unchanged.
+
+## Iteration 4 - Embedding Model Comparison
+
+### Goal
+
+Evaluate whether a retrieval-oriented embedding model improves retrieval of relevant clinical evidence.
+
+### Problem
+
+The baseline all-MiniLM-L6-v2 model frequently retrieved semantically related but clinically irrelevant or incomplete chunks. Diagnostic queries were particularly affected, with the relevant diagnostic criteria missing from the Top-K results.
+
+### Hypothesis
+
+A retrieval-oriented embedding model may represent semantic relationships between clinical questions and evidence more effectively, improving Top-K retrieval relevance.
+
+### Change Made
+
+Changed the embedding model from sentence-transformers/all-MiniLM-L6-v2 to BAAI/bge-small-en-v1.5.
+
+All other retrieval variables were kept unchanged, including the corpus, cleaning, chunk size, chunk overlap, benchmark queries, TOP_K, and vector database configuration.
+
+### Files Modified
+
+config.py
+
+### Result
+
+Retrieval improved substantially for the diagnostic queries.
+
+For D001, the correct diagnostic criteria were retrieved at rank 1 on page 19.
+
+For D002, the Rotterdam diagnostic criteria were retrieved at rank 1 on page 6, with additional relevant diagnostic context appearing in the remaining Top-K results.
+
+However, symptom and cause queries continued to retrieve partially relevant or irrelevant sections, indicating that the embedding change did not resolve all retrieval failures.
+
+### Conclusion
+
+The embedding model had a more meaningful impact on retrieval quality than the previous chunk-size change. BAAI/bge-small-en-v1.5 substantially improved retrieval for diagnostic questions, supporting the hypothesis that the embedding model was an important retrieval bottleneck.
+
+However, retrieval quality remains inconsistent across query types, so the current embedding model should not yet be considered a complete solution.
+
+### Next Iteration
+
+Investigate the remaining retrieval failures and determine whether they are caused by corpus coverage, query formulation, chunking, or ranking before making another retrieval change.
