@@ -4,6 +4,6 @@ S001,Symtoms,Easy,"What are the symptoms experienced by the patient usually?","A
 C001, Cause, Easy, "What are the known causes of PCOS?","Faulty ovaries; metabolic dysfunction; hormonal imbalance; insulin resistance; blood sugar imbalance"
 D002, Diagnosis, Medium, "What is the Rotterdom Criteria for diagnosing PCOS?","rotterdom criteria,"
 S002,Symtoms,Medium,"What are the tell-tale signs someone could be suffering from PCOS?","Acne; Weight Gain; Blood sugar dysregulation; Hirsutism"
-C002, Cause, Medium, "What are the pre-requisite conditions that could lead to COS?","Faulty ovaries; metabolic dysfunction; hormonal imbalance; insulin resistance; blood sugar imbalance"
+C002, Cause, Medium, "What are the pre-requisite conditions that could lead to PCOS?","Faulty ovaries; metabolic dysfunction; hormonal imbalance; insulin resistance; blood sugar imbalance"
 
 

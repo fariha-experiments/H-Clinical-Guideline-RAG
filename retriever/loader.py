@@ -22,3 +22,14 @@ def load_pdf():
     print(f"Loaded {len(documents)} pages.")
 
     return documents
+
+
+# ----------temp ----------------
+if __name__ == "__main__":
+    documents = load_pdf()
+
+    print("\n========== PAGE 1 ==========\n")
+    print(documents[0].page_content)
+
+    print("\n========== PAGE 60 ==========\n")
+    print(documents[59].page_content)

@@ -1,0 +1,151 @@
+query_id,category,difficulty,question,retrieval_score,retrieval_rank,retrieved_page,retrieved_chunk
+D001,Diagnosis,Easy,What are the diagnostic criteria for PCOS?,0.5912380218505859,1,63,"10 relevant studies showing an area under ROC of AMH for diagnosis of PCOS of 0.58-0.88. The threshold ranges 
+from 25 to 99 pmol/l. In adults, there are 53 relevant studies showing an area under ROC of  AMH for diagnosis 
+of PCOS of 0.58-0.99. The threshold ranges from 8.5-59 pmol/l. Factors influencing these thresholds include 
+the use of different AMH assays, differences in age or BMI and whether PCOS or PCOM was excluded in the 
+control population."
+D001,Diagnosis,Easy,What are the diagnostic criteria for PCOS?,0.68166583776474,2,60,"demonstrating a sensitivity of 21-94% and specificity of 60-100% as an ultrasound criterion to diagnose PCOS. 
+There is insufficient evidence to suggest use of other ultrasound parameters including ovarian area; maximum 
+number follicles in a single sonographic plane; peripheral distribution of ovarian follicles; bright ovarian stroma; 
+combination of age, follicle number, log ovarian volume, and testosterone; or combination of follicular size and 
+ovarian volume for diagnosis of PCOS."
+D001,Diagnosis,Easy,What are the diagnostic criteria for PCOS?,0.7094831466674805,3,60,"59 International Evidence-based Guideline for the assessment and management of polycystic ovary syndrome 2023 
+ 
+ 
+1.4 Ultrasound and polycystic ovarian morphology 
+What are the most effective ultrasound criteria to diagnose PCOS? 
+Clinical need for the question 
+Polycystic ovarian morphology (PCOM) was incorporated into the diagnosis of PCOS in 2003 in the Rotterdam 
+criteria, based on associations with clinical and endocrine features of the condition. 44 This introduced greater 
+heterogeneity into PCOS with limited data on natural history, prompting calls for better characterisation and more 
+research.45 The definition of PCOM in the Rotterdam criteria was 12 or more follicles measuring 2-9 mm throughout"
+S001,Symtoms,Easy,What are the symptoms experienced by the patient usually?,1.2356494665145874,1,93,"(e.g. age), diagnosis and symptoms severity, and available resources. 
+Summary of narrative review evidence 
+Given the limited evidence specifically in PCOS, this question was allocated as a narrative review and therefore 
+a systematic literature review was not conducted. General population guidelines were accessed including 
+ National Institute for Health and Care Excellence: 
+www.nice.org.uk/guidance/published?type=csg,cg,mpg,ph,sg,sc 
+ National Institute of Mental Health: www.nimh.nih.gov/health/index.shtml 
+ American Psychiatric Association: www.psychiatry.org/psychiatrists/practice/clinical-practice-guidelines 
+ National Health and Medical Research Centre: www.clinicalguidelines.gov.au"
+S001,Symtoms,Easy,What are the symptoms experienced by the patient usually?,1.2537261247634888,2,79,"78 
+ 
+ 
+ 
+ 
+Chapter Two 
+Prevalence, screening, and 
+management of 
+psychological features and 
+models of care"
+S001,Symtoms,Easy,What are the symptoms experienced by the patient usually?,1.2679474353790283,3,229,"A test to diagnose diabetes where a high-glucose drink is given and blood samples 
+are checked at regular intervals for two hours. 
+ 
+ 
+ 
+Ovarian hyperstimulation 
+syndrome (OHSS) 
+A condition where too many follicles develop (following ovulation induction) 
+which can result in marked abdominal swelling, nausea, vomiting and diarrhea, 
+lower abdominal pain and shortness of breath."
+C001, Cause, Easy," ""What are the known causes of PCOS?""",0.7610770463943481,1,8,"The new guidelines used best practice to bring together evidence, expert perspectives and the preferences 
+of women with PCOS. They note that PCOS can be diagnosed using specific signs, symptoms, and blood tests. 
+The recommendations also simplify the tests needed for diagnosis. Once diagnosed, their doctors and healthcare 
+professionals should identify and take care of the many different aspects of health and increased health risks 
+affected by PCOS. This includes recognising increased risks in reproductive health such as reduced fertility, 
+metabolism such as diabetes, heart health, skin health, sleep, and mental health such as depression.  
+Doctors need to be aware of increased risks and check and intervene to prevent and limit these."
+C001, Cause, Easy," ""What are the known causes of PCOS?""",0.7767775058746338,2,9,"improved patient experience and health outcomes for the one in ten women worldwide with PCOS. 
+ 
+Context and background 
+Polycystic ovary syndrome (PCOS) is a significant public health issue with endocrine, reproductive, 
+cardiometabolic, dermatologic and psychological features. PCOS is one of the most common conditions 
+affecting around 10% of reproductive aged women, 1-5 with many remaining undiagnosed.4 Women with 
+PCOS have diverse features including psychological (anxiety, depression, sleep and eating disorders), 6-8 
+dermatologic (hirsutism, acanthosis nigricans and acne), reproductive (irregular menstrual cycles, infertility, 
+endometrial cancer and pregnancy complications) 9 and metabolic features (insulin resistance, metabolic"
+C001, Cause, Easy," ""What are the known causes of PCOS?""",0.8162964582443237,3,91,"90 
+ 
+ 
+2.6.4 What are the key challenges for those with PCOS when 
+interacting with healthcare professionals about polycystic 
+ovary syndrome and related features? 
+Clinical need for the question 
+Interactions between patients, their doctors and the wider healthcare team about PCOS are important to 
+enhance knowledge, self-management, outcomes of care, shared decision making and support to achieve health 
+outcomes that matter to them. As outlined there is also wide spread dissatisfaction with PCOS c are.143 PCOS is 
+heterogeneous and varies across populations, individuals and across the life span. It affects physical  and mental 
+health and has sociocultural implications as noted above. It is also a chronic disease in which self -management"
+D002, Diagnosis, Medium," ""What is the Rotterdom Criteria for diagnosing PCOS?""",0.7972921133041382,1,63,"10 relevant studies showing an area under ROC of AMH for diagnosis of PCOS of 0.58-0.88. The threshold ranges 
+from 25 to 99 pmol/l. In adults, there are 53 relevant studies showing an area under ROC of  AMH for diagnosis 
+of PCOS of 0.58-0.99. The threshold ranges from 8.5-59 pmol/l. Factors influencing these thresholds include 
+the use of different AMH assays, differences in age or BMI and whether PCOS or PCOM was excluded in the 
+control population."
+D002, Diagnosis, Medium," ""What is the Rotterdom Criteria for diagnosing PCOS?""",0.8720684051513672,2,173,"Systematic reviews were performed for all questions where systematic evidence appraisal was suited. Narrative 
+evidence reviews were completed where questions were less well suited to a PICO systematic review format. 
+Of the 55 questions, 52 were addressed by guideline systematic reviews, and three by narrative reviews of isolated 
+PCOS studies supported by systematic reviews/guidelines in the general population. Of the 52 systematic 
+reviews, some searches identified no evidence addressing the specific question and/or PICO (i.e. no eligible 
+studies), in which case results were described narratively, drawing on clinical expertise and evidence from 
+the general population."
+D002, Diagnosis, Medium," ""What is the Rotterdom Criteria for diagnosing PCOS?""",0.8764981031417847,3,177,"176 
+ 
+ 
+Adaptation of existing evidence-based guidelines 
+Given the time and resource-intensive nature of guideline development, existing high-quality evidence-based 
+guidelines that address the clinical questions and PICO (Patient/Population, Intervention, Comparison, Outcome) 
+of interest should be sought for adaptation before starting a new one. Apart from the International evidence- 
+based guideline for the assessment and management of PCOS, completed by this group in 2018, no other 
+international guideline covering all health aspects related to the syndrome was available. Professional society 
+positions statements or clinical practice guidelines are more limited in scope, do not follow AGREE II (Appraisal of"
+S002,Symtoms,Medium,What are the tell-tale signs someone could be suffering from PCOS?,0.6459407806396484,1,8,"The new guidelines used best practice to bring together evidence, expert perspectives and the preferences 
+of women with PCOS. They note that PCOS can be diagnosed using specific signs, symptoms, and blood tests. 
+The recommendations also simplify the tests needed for diagnosis. Once diagnosed, their doctors and healthcare 
+professionals should identify and take care of the many different aspects of health and increased health risks 
+affected by PCOS. This includes recognising increased risks in reproductive health such as reduced fertility, 
+metabolism such as diabetes, heart health, skin health, sleep, and mental health such as depression.  
+Doctors need to be aware of increased risks and check and intervene to prevent and limit these."
+S002,Symtoms,Medium,What are the tell-tale signs someone could be suffering from PCOS?,0.682129979133606,2,93,"(e.g. age), diagnosis and symptoms severity, and available resources. 
+Summary of narrative review evidence 
+Given the limited evidence specifically in PCOS, this question was allocated as a narrative review and therefore 
+a systematic literature review was not conducted. General population guidelines were accessed including 
+ National Institute for Health and Care Excellence: 
+www.nice.org.uk/guidance/published?type=csg,cg,mpg,ph,sg,sc 
+ National Institute of Mental Health: www.nimh.nih.gov/health/index.shtml 
+ American Psychiatric Association: www.psychiatry.org/psychiatrists/practice/clinical-practice-guidelines 
+ National Health and Medical Research Centre: www.clinicalguidelines.gov.au"
+S002,Symtoms,Medium,What are the tell-tale signs someone could be suffering from PCOS?,0.7430005073547363,3,9,"improved patient experience and health outcomes for the one in ten women worldwide with PCOS. 
+ 
+Context and background 
+Polycystic ovary syndrome (PCOS) is a significant public health issue with endocrine, reproductive, 
+cardiometabolic, dermatologic and psychological features. PCOS is one of the most common conditions 
+affecting around 10% of reproductive aged women, 1-5 with many remaining undiagnosed.4 Women with 
+PCOS have diverse features including psychological (anxiety, depression, sleep and eating disorders), 6-8 
+dermatologic (hirsutism, acanthosis nigricans and acne), reproductive (irregular menstrual cycles, infertility, 
+endometrial cancer and pregnancy complications) 9 and metabolic features (insulin resistance, metabolic"
+C002, Cause, Medium," ""What are the pre-requisite conditions that could lead to PCOS?""",0.7967517375946045,1,8,"The new guidelines used best practice to bring together evidence, expert perspectives and the preferences 
+of women with PCOS. They note that PCOS can be diagnosed using specific signs, symptoms, and blood tests. 
+The recommendations also simplify the tests needed for diagnosis. Once diagnosed, their doctors and healthcare 
+professionals should identify and take care of the many different aspects of health and increased health risks 
+affected by PCOS. This includes recognising increased risks in reproductive health such as reduced fertility, 
+metabolism such as diabetes, heart health, skin health, sleep, and mental health such as depression.  
+Doctors need to be aware of increased risks and check and intervene to prevent and limit these."
+C002, Cause, Medium," ""What are the pre-requisite conditions that could lead to PCOS?""",0.848185122013092,2,8,"Doctors need to be aware of increased risks and check and intervene to prevent and limit these. 
+The guidelines also say that those with PCOS need to be checked for depression and anxiety, and other mental 
+health challenges that are more common in PCOS. It also notes that their doctors should be trained to help 
+detect, prevent and manage these if present. The guidelines suggest that health professionals should work 
+together with those with PCOS to make decisions about their care, and that they should be careful  to consider 
+cultural factors and ethnicity and not discriminate, especially based on higher weight, which is very common in 
+PCOS. They recognise the need for greater education and better information for health professionals and those"
+C002, Cause, Medium," ""What are the pre-requisite conditions that could lead to PCOS?""",0.8884415626525879,3,91,"90 
+ 
+ 
+2.6.4 What are the key challenges for those with PCOS when 
+interacting with healthcare professionals about polycystic 
+ovary syndrome and related features? 
+Clinical need for the question 
+Interactions between patients, their doctors and the wider healthcare team about PCOS are important to 
+enhance knowledge, self-management, outcomes of care, shared decision making and support to achieve health 
+outcomes that matter to them. As outlined there is also wide spread dissatisfaction with PCOS c are.143 PCOS is 
+heterogeneous and varies across populations, individuals and across the life span. It affects physical  and mental 
+health and has sociocultural implications as noted above. It is also a chronic disease in which self -management"

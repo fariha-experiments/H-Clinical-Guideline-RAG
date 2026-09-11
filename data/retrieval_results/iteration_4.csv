@@ -1,0 +1,291 @@
+query_id,category,difficulty,question,retrieval_score,retrieval_rank,retrieved_page,retrieved_chunk
+D001,Diagnosis,Easy,What are the diagnostic criteria for PCOS?,0.3274686932563782,1,19,"18 
+ 
+ 
+Context statement on diagnosis: Prelude to the guideline 
+Here, we build on the 2018 International Evidence-based Guideline for the Assessment, Diagnosis 
+and Management of PCOS, and on the initial consensus-based Rotterdam PCOS diagnostic criteria.18 
+Here, we progress evidence-based diagnostic criteria and in adults recommend that this requires two of 
+i) clinical/biochemical hyperandrogenism, ii) ovulatory dysfunction or iii) polycystic ovaries on ultrasound and here 
+add elevated anti-mullerian hormone (AMH) levels. We have included the role of AMH in diagnosis in adults but 
+do not recommend AMH or ultrasound in adolescents, due to overlap with normal reproductive physiology. 
+Exclusion of thyroid disease (thyroid stimulating hormone), hyperprolactinemia (prolactin), and non-classic 
+congenital adrenal hyperplasia (17-hydroxy progesterone) is recommended with further evaluation recommended 
+in those with amenorrhea and more severe clinical features including consideration of hypogonadotropic 
+hypogonadism, Cushing’s disease, or suspected androgen producing tumors, noting that overt virilisation"
+D001,Diagnosis,Easy,What are the diagnostic criteria for PCOS?,0.3371169865131378,2,53,"diagnostic criteria is during the pubertal transition. Physiological maturation of the hypothalamic, pituitary ovarian 
+axis occurs over years and ovulation and cycles in adolescents do not match those of reproductive aged women. 
+When irregular cycles reflect reproductive maturity and when they may indicate PCOS is unclear, challenging 
+accurate diagnosis with potential concerns about over-diagnosis. Likewise, women internationally report under 
+diagnosis and delayed diagnosis, dissatisfaction in diagnosis experience, with related anxiety and limited 
+opportunity for education, prevention of complications and treatment of symptoms.  Young women may also 
+be commenced on the combined oral contraceptive pill prior to assessment and diagnosis, potentially delaying 
+diagnosis. Given the lack of definitive evidence identified in 2018, and the importance of diagnostic criteria in 
+PCOS, this clinical question was prioritised. 
+Summary of systematic and narrative review evidence 
+We did not identify any evidence in our patient population to answer the question and therefore a consensus"
+D001,Diagnosis,Easy,What are the diagnostic criteria for PCOS?,0.3517983555793762,3,60,"with 2516 adult participants demonstrating a sensitivity of 21-94% and specificity of 60-100% as an ultrasound 
+diagnostic criterion to diagnose PCOS. For ovarian volume, there were 29 studies with 6786 participants 
+demonstrating a sensitivity of 21-94% and specificity of 60-100% as an ultrasound criterion to diagnose PCOS. 
+There is insufficient evidence to suggest use of other ultrasound parameters including ovarian area; maximum 
+number follicles in a single sonographic plane; peripheral distribution of ovarian follicles; bright ovarian stroma; 
+combination of age, follicle number, log ovarian volume, and testosterone; or combination of follicular size and 
+ovarian volume for diagnosis of PCOS."
+S001,Symtoms,Easy,What are the symptoms experienced by the patient usually?,0.7404110431671143,1,79,"78 
+ 
+ 
+ 
+ 
+Chapter Two 
+Prevalence, screening, and 
+management of 
+psychological features and 
+models of care"
+S001,Symtoms,Easy,What are the symptoms experienced by the patient usually?,0.753650963306427,2,91,"resources or a well-formulated strategy for management emerged as important. Healthcare professionals that 
+acknowledged limited expertise and who took the time to research and support patients with a new diagnosis 
+were perceived positively. 
+Second, shared decision making was important yet limited as interactions were often too abbreviated with limited 
+information and options presented, patient preferences were often not elicited, and too little time was available. 
+Hence patients felt excluded from decision making, whereas use of shared decision making was positively 
+regarded. 
+Third, interactions were challenging when healthcare professionals did not support patient agency, that is, 
+patients’ ability to take independent actions to manage their health and care. Patients reported that their 
+perspectives and self-management were not valued. Healthcare professionals that were validating, 
+supported patients and having consultations that were patient led and informed, were viewed positively."
+S001,Symtoms,Easy,What are the symptoms experienced by the patient usually?,0.7583264708518982,3,91,"90 
+ 
+ 
+2.6.4 What are the key challenges for those with PCOS when 
+interacting with healthcare professionals about polycystic 
+ovary syndrome and related features? 
+Clinical need for the question 
+Interactions between patients, their doctors and the wider healthcare team about PCOS are important to 
+enhance knowledge, self-management, outcomes of care, shared decision making and support to achieve health 
+outcomes that matter to them. As outlined there is also wide spread dissatisfaction with PCOS c are.143 PCOS is 
+heterogeneous and varies across populations, individuals and across the life span. It affects physical  and mental 
+health and has sociocultural implications as noted above. It is also a chronic disease in which self -management 
+is important, requiring information, education and knowledge. This makes clinical care challenging and women 
+describe falling through the cracks of increasingly compartmentalised or specialty care. Hence this question was 
+prioritised from consumer consultation for the current guideline. 
+Summary of systematic review evidence 
+Given the extensive studies included, further information, including detailed references and study characteristics,"
+C001, Cause, Easy," ""What are the known causes of PCOS?""",0.4042515158653259,1,9,"affecting around 10% of reproductive aged women, 1-5 with many remaining undiagnosed.4 Women with 
+PCOS have diverse features including psychological (anxiety, depression, sleep and eating disorders), 6-8 
+dermatologic (hirsutism, acanthosis nigricans and acne), reproductive (irregular menstrual cycles, infertility, 
+endometrial cancer and pregnancy complications) 9 and metabolic features (insulin resistance, metabolic 
+syndrome, type 2 diabetes (T2D), cardiovascular risk factors and increased cardiovascular disease (CVD).10-12 
+Diagnosis and treatment of PCOS remain challenging including accurately defining individual diagnostic criteria, 
+marked clinical heterogeneity, the influence of excess weight, ethnic differences and variation across the life 
+course. These factors contribute to variation in diagnosis, presentation and care. 13 This culminates in delayed 
+diagnosis, poor diagnosis experience and dissatisfaction with care, as reported by  women internationally.14 
+These challenges are exacerbated by the misleading name of the condition, which focuses only on reproductive"
+C001, Cause, Easy," ""What are the known causes of PCOS?""",0.40728744864463806,2,86,"They are at increased risk of excess weight, depression, anxiety, self-esteem and poor body image. They are also 
+more likely to be highly motivated for weight loss and to be prescribed dietary restriction. The increased risk factors, 
+the apparent increased prevalence of eating disorders and disordered eating in women with PCOS, and the negative 
+biopsychosocial consequences of these disorders, highlight the need for greater awareness in PCOS. Many women 
+with eating disorders are undiagnosed and unaware. Therefore, raised awareness and consideration of assessment 
+and diagnosis are important. It was acknowledged that screening is challenging given the breadth and complexity 
+of these conditions and false positives with current tools are noted. Resource and time implications were also 
+considered, hence routine screening is not recommended, but heightened awareness is recommended. 
+Previous recommendations are strengthened here with increased evidence."
+C001, Cause, Easy," ""What are the known causes of PCOS?""",0.4653020203113556,3,6,"and optimisation of fertility. Metabolic risk factors, diabetes, cardiovascular disease and sleep disorders are all 
+increased in PCOS and screening and management is recommended. PCOS should be considered a high -risk 
+condition in pregnancy with women identified and monitored. An increased premenopausal risk of endometrial 
+cancer should be recognised, whilst absolute risks remain low. 
+Depressive and anxiety symptoms are significantly increased and should be screened for in all  women with 
+PCOS, with psychological assessment and therapy as indicated. Greater awareness of psychological features 
+including eating disorders and impacts on body image and quality of life is needed. Dissatisfaction with PCOS 
+diagnosis and care is high and raised awareness and education is strongly recommended for  women and 
+healthcare professionals including high quality, evidence-based resources. Shared decision making and a 
+self-empowerment are fundamental and integrated models of care should be developed, funded and evaluated."
+D002, Diagnosis, Medium," ""What is the Rotterdom Criteria for diagnosing PCOS?""",0.348150372505188,1,6,"methods and outputs were submitted to NHMRC for independent review. 
+Recommendations: PCOS should be diagnosed using the revised consensus Rotterdam criteria, which are 
+now updated to evidence-based criteria. In adults this requires the presence of two of i) clinical/biochemical 
+hyperandrogenism, ii) ovulatory dysfunction and iii) polycystic ovaries on ultrasound or elevated anti-mullerian 
+hormone (AMH) levels, after other causes of these features are excluded.  Where irregular menstrual cycles 
+and hyperandrogenism are present, ultrasound or AMH are not required for diagnosis. In adolescents, both 
+hyperandrogenism and ovulatory dysfunction are required, with ultrasound and AMH not recommended,  
+due to poor specificity. Once diagnosed, assessment and management should address reproductive, 
+metabolic, cardiovascular, dermatologic, sleep and psychological features. A lifelong reproductive health plan 
+is recommended including a focus on preconception risk factors, healthy lifestyle and prevention of weight gain 
+and optimisation of fertility. Metabolic risk factors, diabetes, cardiovascular disease and sleep disorders are all"
+D002, Diagnosis, Medium," ""What is the Rotterdom Criteria for diagnosing PCOS?""",0.3483511805534363,2,53,"diagnostic criteria is during the pubertal transition. Physiological maturation of the hypothalamic, pituitary ovarian 
+axis occurs over years and ovulation and cycles in adolescents do not match those of reproductive aged women. 
+When irregular cycles reflect reproductive maturity and when they may indicate PCOS is unclear, challenging 
+accurate diagnosis with potential concerns about over-diagnosis. Likewise, women internationally report under 
+diagnosis and delayed diagnosis, dissatisfaction in diagnosis experience, with related anxiety and limited 
+opportunity for education, prevention of complications and treatment of symptoms.  Young women may also 
+be commenced on the combined oral contraceptive pill prior to assessment and diagnosis, potentially delaying 
+diagnosis. Given the lack of definitive evidence identified in 2018, and the importance of diagnostic criteria in 
+PCOS, this clinical question was prioritised. 
+Summary of systematic and narrative review evidence 
+We did not identify any evidence in our patient population to answer the question and therefore a consensus"
+D002, Diagnosis, Medium," ""What is the Rotterdom Criteria for diagnosing PCOS?""",0.35190707445144653,3,19,"18 
+ 
+ 
+Context statement on diagnosis: Prelude to the guideline 
+Here, we build on the 2018 International Evidence-based Guideline for the Assessment, Diagnosis 
+and Management of PCOS, and on the initial consensus-based Rotterdam PCOS diagnostic criteria.18 
+Here, we progress evidence-based diagnostic criteria and in adults recommend that this requires two of 
+i) clinical/biochemical hyperandrogenism, ii) ovulatory dysfunction or iii) polycystic ovaries on ultrasound and here 
+add elevated anti-mullerian hormone (AMH) levels. We have included the role of AMH in diagnosis in adults but 
+do not recommend AMH or ultrasound in adolescents, due to overlap with normal reproductive physiology. 
+Exclusion of thyroid disease (thyroid stimulating hormone), hyperprolactinemia (prolactin), and non-classic 
+congenital adrenal hyperplasia (17-hydroxy progesterone) is recommended with further evaluation recommended 
+in those with amenorrhea and more severe clinical features including consideration of hypogonadotropic 
+hypogonadism, Cushing’s disease, or suspected androgen producing tumors, noting that overt virilisation"
+S002,Symtoms,Medium,What are the tell-tale signs someone could be suffering from PCOS?,0.414204478263855,1,9,"affecting around 10% of reproductive aged women, 1-5 with many remaining undiagnosed.4 Women with 
+PCOS have diverse features including psychological (anxiety, depression, sleep and eating disorders), 6-8 
+dermatologic (hirsutism, acanthosis nigricans and acne), reproductive (irregular menstrual cycles, infertility, 
+endometrial cancer and pregnancy complications) 9 and metabolic features (insulin resistance, metabolic 
+syndrome, type 2 diabetes (T2D), cardiovascular risk factors and increased cardiovascular disease (CVD).10-12 
+Diagnosis and treatment of PCOS remain challenging including accurately defining individual diagnostic criteria, 
+marked clinical heterogeneity, the influence of excess weight, ethnic differences and variation across the life 
+course. These factors contribute to variation in diagnosis, presentation and care. 13 This culminates in delayed 
+diagnosis, poor diagnosis experience and dissatisfaction with care, as reported by  women internationally.14 
+These challenges are exacerbated by the misleading name of the condition, which focuses only on reproductive"
+S002,Symtoms,Medium,What are the tell-tale signs someone could be suffering from PCOS?,0.4600794315338135,2,86,"They are at increased risk of excess weight, depression, anxiety, self-esteem and poor body image. They are also 
+more likely to be highly motivated for weight loss and to be prescribed dietary restriction. The increased risk factors, 
+the apparent increased prevalence of eating disorders and disordered eating in women with PCOS, and the negative 
+biopsychosocial consequences of these disorders, highlight the need for greater awareness in PCOS. Many women 
+with eating disorders are undiagnosed and unaware. Therefore, raised awareness and consideration of assessment 
+and diagnosis are important. It was acknowledged that screening is challenging given the breadth and complexity 
+of these conditions and false positives with current tools are noted. Resource and time implications were also 
+considered, hence routine screening is not recommended, but heightened awareness is recommended. 
+Previous recommendations are strengthened here with increased evidence."
+S002,Symtoms,Medium,What are the tell-tale signs someone could be suffering from PCOS?,0.4981769323348999,3,3,"2 
+ 
+ 
+ 
+Contents 
+ 
+ 
+Acknowledgements 1 
+Contents 2 
+Preface 4 
+Abstract 5 
+Plain Language Statement 7 
+ 
+ 
+Chapter One 
+Screening, diagnostic and risk assessment 
+and life stages 51 
+1.1 Irregular cycles and ovulatory dysfunction 52 
+1.2 Biochemical hyperandrogenism 54 
+1.3 Clinical hyperandrogenism 57 
+1.4 Ultrasound and polycystic ovarian morphology 59 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Recommendations summary 21 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2.6.1 Information needs 86 
+2.6.2 Models of care 88 
+2.6.3 Support to manage PCOS 89 
+2.6.4 Patient Care 90 
+2.7 Psychological therapy 92 
+2.8 Antidepressant and anxiolytic treatment 94 
+ 
+ 
+Executive Summary 8  1.5 Anti-mullerian hormone  
+Context and background 8   in the diagnosis of PCOS 62 
+Guideline purpose, aims and expected outcomes 10  1.6 Ethnic variation 64 
+Key principles 10  1.7 Menopause life stage 65 
+Population 11  1.8 Cardiovascular disease risk 67 
+Setting and audience 11  1.9 Impaired glucose tolerance and type 2 diabetes 69 
+Inclusiveness and stigma 12  1.10 Obstructive sleep apnea 72 
+Governance 12  1.11 Endometrial hyperplasia and cancer 74"
+C002, Cause, Medium," ""What are the pre-requisite conditions that could lead to PCOS?""",0.37228402495384216,1,42,"population guidelines. 
+4.9.3 CR PCOS is a metabolic condition and could be considered an indication at a lower 
+BMI threshold for bariatric/metabolic surgery similarly to other metabolic conditions 
+including diabetes. 
+4.9.4 CR Women should be strongly counseled on the likelihood of rapid return of fertility 
+and the need to commit to effective contraception, ideally prior to surgery. Even 
+when pregnancy is desired, contraception should be continued until a stable weight 
+is achieved, usually after one year, to avoid significantly increased risk of growth 
+restriction, prematurity, small for gestational age, pregnancy complications and 
+prolonged hospitalisation of the infant."
+C002, Cause, Medium," ""What are the pre-requisite conditions that could lead to PCOS?""",0.37885046005249023,2,143,"Recommendations 
+142 
+ 
+ 
+ 
+ 
+5.1 # Preconception risk factors 
+ 
+5.1.1 EBR Women with PCOS should be counseled on the adverse impact of excess weight 
+on clinical pregnancy, miscarriage and live birth rates, following infertility treatment. 
+5.1.2 CR Consistent with routine preconception care, in women with PCOS planning 
+pregnancy, weight, blood pressure, smoking, alcohol, diet and nutritional status, 
+folate supplementation (higher dose in those with BMI > 30), exercise, sleep and 
+mental, emotional and sexual health should be considered and optimised to 
+improve reproductive and pregnancy outcomes and overall health.  
+5.1.3 PP A reproductive life plan and age appropriate education on optimising reproductive 
+health, is recommended in adolescents and women with PCOS, including healthy 
+lifestyle, prevention of excess weight gain, and optimising preconception risk factors. 
+5.1.4 PP Healthcare professionals are encouraged to seek permission and if given, to assess 
+weight and body mass index and initiate a dialogue on the importance of weight and 
+lifestyle on women’s health before pregnancy. This requires caution to avoid weight"
+C002, Cause, Medium," ""What are the pre-requisite conditions that could lead to PCOS?""",0.3917226195335388,3,53,"diagnostic criteria is during the pubertal transition. Physiological maturation of the hypothalamic, pituitary ovarian 
+axis occurs over years and ovulation and cycles in adolescents do not match those of reproductive aged women. 
+When irregular cycles reflect reproductive maturity and when they may indicate PCOS is unclear, challenging 
+accurate diagnosis with potential concerns about over-diagnosis. Likewise, women internationally report under 
+diagnosis and delayed diagnosis, dissatisfaction in diagnosis experience, with related anxiety and limited 
+opportunity for education, prevention of complications and treatment of symptoms.  Young women may also 
+be commenced on the combined oral contraceptive pill prior to assessment and diagnosis, potentially delaying 
+diagnosis. Given the lack of definitive evidence identified in 2018, and the importance of diagnostic criteria in 
+PCOS, this clinical question was prioritised. 
+Summary of systematic and narrative review evidence 
+We did not identify any evidence in our patient population to answer the question and therefore a consensus"
